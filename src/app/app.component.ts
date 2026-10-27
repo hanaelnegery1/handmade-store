@@ -13,5 +13,7 @@ export class AppComponent {
   readonly store = STORE;
   readonly whatsappUrl = `https://wa.me/${STORE.whatsapp}`;
   // الشريط المتحرك: أسماء الأقسام متكررة عشان يلف من غير فراغ
-  readonly marquee = Array(6).fill([...CATEGORIES, 'هاند ميد']).flat() as string[];
+  readonly marquee = Array(6)
+    .fill([...CATEGORIES, 'هاند ميد'])
+    .flat() as string[];
 }

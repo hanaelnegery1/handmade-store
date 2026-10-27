@@ -20,12 +20,14 @@ export class ShopComponent {
 
   // key بيتغير مع القسم عشان حركة الظهور تتكرر كل مرة تغيّري الفلتر
   readonly items = computed(() =>
-    PRODUCTS.filter(p => this.cat() === 'الكل' || p.category === this.cat()).map((p, i) => ({
+    PRODUCTS.filter(
+      (p) => this.cat() === 'الكل' || p.category === this.cat(),
+    ).map((p, i) => ({
       ...p,
       key: this.cat() + p.name,
       delay: i * 70,
       grad: GRADIENTS[i % GRADIENTS.length],
       wa: `https://wa.me/${STORE.whatsapp}?text=${encodeURIComponent('أهلاً، عايزة أطلب: ' + p.name)}`,
-    }))
+    })),
   );
 }
