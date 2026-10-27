@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="public/logo.jpg" alt="My Own Touch Logo" width="220" style="border-radius: 24px; box-shadow: 0 12px 30px rgba(92, 54, 58, 0.18);">
-
-  # My Own Touch 🤍
-
-  > هاند ميد بلمسة تخصك
+  <img src="public/logo.jpg" alt="My Own Touch Logo" width="260">
+  <h1>My Own Touch 🤍</h1>
+  <p><strong>هاند ميد بلمسة تخصك</strong></p>
 </div>
+
+---
 
 ## فكرة المشروع
 
