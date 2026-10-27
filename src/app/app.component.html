@@ -1,0 +1,47 @@
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="bf" viewBox="0 0 100 80">
+    <g class="wing"><path d="M50 40C32 4 3 8 7 36c3 20 28 26 43 8z"/></g>
+    <g class="wing"><path d="M50 40C68 4 97 8 93 36c-3 20-28 26-43 8z"/></g>
+    <ellipse cx="50" cy="42" rx="2.6" ry="14"/>
+  </symbol>
+</svg>
+
+<section class="hero">
+  <header>
+    <a class="mark script" href="#top">{{ store.name }}</a>
+    <nav>
+      <a href="#shop">المنتجات</a>
+      <a href="#about">عننا</a>
+      <a href="#contact">تواصلي معانا</a>
+    </nav>
+  </header>
+
+  <div class="fly a" style="--s:64px"><svg viewBox="0 0 100 80"><use href="#bf"/></svg></div>
+  <div class="fly b" style="--s:40px"><svg viewBox="0 0 100 80"><use href="#bf"/></svg></div>
+
+  <div class="hero-in" id="top">
+    <div class="logo"><img src="logo.jpg" [alt]="store.name"></div>
+    <p>{{ store.tagline }}</p>
+    <a class="cta" href="#shop">شوفي المنتجات</a>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true">
+  <div>
+    @for (t of marquee; track $index) { <span>{{ t }}</span><i>✿</i> }
+  </div>
+</div>
+
+<app-shop />
+
+<section class="about" id="about">
+  <q appReveal>اللمسة اللي بتخلي الحاجة حاجتك انتي</q>
+  <p appReveal>شغل هاند ميد، بخامات مختارة وتفاصيل بتتعمل على مهلها</p>
+</section>
+
+<footer id="contact">
+  <div class="script">{{ store.name }}</div>
+  <p class="lead">عايزة تطلبي أو تسألي؟ كلمينا</p>
+  <a class="cta" [href]="whatsappUrl" target="_blank" rel="noopener">واتساب</a>
+  <small>صُنع بإيد وحب</small>
+</footer>

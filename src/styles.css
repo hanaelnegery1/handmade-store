@@ -1,0 +1,24 @@
+:root{
+  --mauve:#795756; --mauve-d:#5f4241; --cocoa:#3a2b2c; --cream:#fff1dc;
+  --blush:#ecd0c4; --paper:#fff8ee; --rose:#c98b7e;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:Cairo,system-ui,sans-serif;background:var(--paper);color:var(--cocoa);line-height:1.7}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.script{font-family:Allura,cursive;font-weight:400}
+.cta{display:inline-block;margin-top:8px;background:var(--cream);color:var(--cocoa);text-decoration:none;font-weight:800;padding:12px 34px;border-radius:99px;transition:transform .25s,box-shadow .25s,background .25s}
+.cta:hover{transform:translateY(-3px);box-shadow:0 12px 26px #3a2b2c55;background:#fff}
+
+/* الفراشة (SVG symbol) — global لأن الـ <use> بيقرا الستايل من الأصل */
+#bf path,#bf ellipse{fill:rgba(58,43,44,.22);stroke:var(--cocoa);stroke-width:2.6;stroke-linejoin:round}
+#bf ellipse{fill:var(--cocoa)}
+.wing{transform-origin:50px 40px}
+@keyframes flap{to{transform:scaleX(.3)}}
+
+@media (prefers-reduced-motion:no-preference){
+  .wing{animation:flap .28s ease-in-out infinite alternate}
+  .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+  .rv.in{opacity:1;transform:none}
+}
