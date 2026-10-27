@@ -19,6 +19,4 @@ a{color:inherit}
 
 @media (prefers-reduced-motion:no-preference){
   .wing{animation:flap .28s ease-in-out infinite alternate}
-  .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
-  .rv.in{opacity:1;transform:none}
 }

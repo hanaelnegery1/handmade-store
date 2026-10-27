@@ -41,6 +41,7 @@ footer small{display:block;margin-top:26px;opacity:.75}
 @keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
 @keyframes bob{50%{transform:translateY(-8px)}}
 @keyframes slide{to{transform:translateX(-50%)}}
+@keyframes reveal{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
 @keyframes f1{
   0%{transform:translate(-14vw,62vh) rotate(18deg)}
   22%{transform:translate(22vw,34vh) rotate(-14deg)}
@@ -53,6 +54,9 @@ footer small{display:block;margin-top:26px;opacity:.75}
   60%{transform:translate(34vw,40vh) rotate(-12deg) scaleX(-1)}
   100%{transform:translate(-14vw,74vh) rotate(16deg) scaleX(-1)}}
 @media (prefers-reduced-motion:no-preference){
+  .about .reveal{animation:reveal .7s ease both}
+  .about .reveal-one{animation-delay:.15s}
+  .about .reveal-two{animation-delay:.3s}
   .logo{animation:write 2.2s cubic-bezier(.65,0,.25,1) .3s backwards}
   .hero-in{animation:bob 6s ease-in-out 2.6s infinite}
   .hero p{animation:rise .9s ease 2.1s backwards}

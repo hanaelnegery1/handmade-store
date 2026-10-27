@@ -1,6 +1,5 @@
 import { Component, computed, signal } from '@angular/core';
 import { CATEGORIES, PRODUCTS, STORE } from '../data/store.data';
-import { RevealDirective } from '../reveal.directive';
 
 const GRADIENTS = [
   'linear-gradient(160deg,#ecd0c4,#d9a99d)',
@@ -12,7 +11,6 @@ const GRADIENTS = [
 @Component({
   selector: 'app-shop',
   standalone: true,
-  imports: [RevealDirective],
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.css',
 })

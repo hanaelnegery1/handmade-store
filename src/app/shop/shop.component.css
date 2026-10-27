@@ -16,5 +16,12 @@ small{color:var(--mauve)}
 .price{font-weight:800;color:var(--mauve-d)}
 .order{margin:8px auto 0;font-weight:600;font-size:.95rem;text-decoration:none;color:inherit;border-bottom:2px solid var(--rose);transition:color .2s}
 .order:hover{color:var(--mauve)}
+@keyframes reveal{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
 @keyframes pop{from{opacity:0;transform:scale(.9) translateY(14px)}}
-@media (prefers-reduced-motion:no-preference){.pop{animation:pop .5s cubic-bezier(.2,.8,.2,1) backwards}}
+@media (prefers-reduced-motion:no-preference){
+  .shop>.reveal{animation:reveal .7s ease both}
+  .shop>.reveal-one{animation-delay:.1s}
+  .shop>.reveal-two{animation-delay:.25s}
+  .shop>.reveal-three{animation-delay:.4s}
+  .pop{animation:pop .5s cubic-bezier(.2,.8,.2,1) backwards}
+}

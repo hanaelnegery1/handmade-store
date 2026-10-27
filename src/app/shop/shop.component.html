@@ -6,10 +6,10 @@
 </svg>
 
 <main class="shop" id="shop">
-  <h2 appReveal>اللي صنعناه بإيدينا</h2>
-  <p class="sub" appReveal>كل قطعة بتتعمل لوحدها، ومفيش اتنين زي بعض</p>
+  <h2 class="reveal reveal-one">اللي صنعناه بإيدينا</h2>
+  <p class="sub reveal reveal-two">كل قطعة بتتعمل لوحدها، ومفيش اتنين زي بعض</p>
 
-  <div class="tabs" appReveal>
+  <div class="tabs reveal reveal-three">
     @for (t of tabs; track t) {
       <button type="button" [class.on]="cat() === t" (click)="cat.set(t)">{{ t }}</button>
     }

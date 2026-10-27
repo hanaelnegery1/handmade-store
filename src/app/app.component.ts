@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { ShopComponent } from './shop/shop.component';
-import { RevealDirective } from './reveal.directive';
 import { CATEGORIES, STORE } from './data/store.data';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ShopComponent, RevealDirective],
+  imports: [ShopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
