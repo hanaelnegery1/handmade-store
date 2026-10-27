@@ -1,59 +1,26 @@
-# MyOwnTouch
+<div align="center">
+  <img src="public/logo.jpg" alt="My Own Touch Logo" width="220" style="border-radius: 24px; box-shadow: 0 12px 30px rgba(92, 54, 58, 0.18);">
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+  # My Own Touch 🤍
 
-## Development server
+  > هاند ميد بلمسة تخصك
+</div>
 
-To start a local development server, run:
+## فكرة المشروع
 
-```bash
-ng serve
-```
+**My Own Touch** هو متجر إلكتروني للمنتجات المصنوعة يدويًا بحب وباهتمام بالتفاصيل. هدفنا إن كل قطعة تكون بسيطة وفريدة، وتعبر عن شخصية صاحبها وتخلي المناسبات والاحتفالات أدفى وأجمل.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+المشروع بيقدّم تجربة تسوق هادية وسهلة، وبيجمع منتجات مختلفة في مكان واحد مع إمكانية تخصيصها حسب ذوق العميل.
 
-## Code scaffolding
+## إيه اللي بنقدمه؟
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **بوكيهات ورد بالطلب:** بوكيهات ورد مصممة حسب المناسبة والذوق، وتقدر تتجهز بطريقة خاصة تناسب الشخص اللي هتتقدمله.
+- **جوابات هدايا:** كروت وجوابات بتُكتب وتُجهز بإضافات بسيطة وملمس هاند ميد لتدي الهدية روح خاصة.
+- **هدايا مميزة:** اختيارات هدايا وبوكسات جاهزة أو بمكونات مختلفة، ممكن تتجمع وتُغلّف حسب المناسبة والطلب.
+- **تفاصيل وإضافات حسب الطلب:** كل قطعة أو هدية ممكن تتنفذ بتفاصيل خاصة علشان تكون مختلفة وتليق بالشخص اللي هتتقدم له.
 
-```bash
-ng generate component component-name
-```
+كل قطعة بنصنعها بحب، عشان يكون لكل عميلة تجربة خاصة ومختلفة وليها لمسة تخصها.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+صُنع بإيد وحب 🤍
