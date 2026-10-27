@@ -1,26 +1,26 @@
 <div align="center">
-  <img src="public/logo.jpg" alt="My Own Touch Logo" width="260">
+  <img src="public/logo.jpg" alt="My Own Touch Logo" width="260" style="border-radius: 24px; display: block; overflow: hidden; box-shadow: 0 10px 28px rgba(91, 61, 53, 0.18);">
   <h1>My Own Touch 🤍</h1>
-  <p><strong>هاند ميد بلمسة تخصك</strong></p>
+  <p><strong>Handmade pieces with a touch of you</strong></p>
 </div>
 
 ---
 
-## فكرة المشروع
+## Project Idea
 
-**My Own Touch** هو متجر إلكتروني للمنتجات المصنوعة يدويًا بحب وباهتمام بالتفاصيل. هدفنا إن كل قطعة تكون بسيطة وفريدة، وتعبر عن شخصية صاحبها وتخلي المناسبات والاحتفالات أدفى وأجمل.
+**My Own Touch** is an online store dedicated to handmade products created with care and attention to detail. Our goal is to make every piece simple, unique, and personal, turning special moments and occasions into warm, memorable gifts.
 
-المشروع بيقدّم تجربة تسوق هادية وسهلة، وبيجمع منتجات مختلفة في مكان واحد مع إمكانية تخصيصها حسب ذوق العميل.
+The store offers a calm and easy shopping experience, bringing different handmade creations together in one place and allowing customers to personalize their orders according to their taste and needs.
 
-## إيه اللي بنقدمه؟
+## What We Offer
 
-- **بوكيهات ورد بالطلب:** بوكيهات ورد مصممة حسب المناسبة والذوق، وتقدر تتجهز بطريقة خاصة تناسب الشخص اللي هتتقدمله.
-- **جوابات هدايا:** كروت وجوابات بتُكتب وتُجهز بإضافات بسيطة وملمس هاند ميد لتدي الهدية روح خاصة.
-- **هدايا مميزة:** اختيارات هدايا وبوكسات جاهزة أو بمكونات مختلفة، ممكن تتجمع وتُغلّف حسب المناسبة والطلب.
-- **تفاصيل وإضافات حسب الطلب:** كل قطعة أو هدية ممكن تتنفذ بتفاصيل خاصة علشان تكون مختلفة وتليق بالشخص اللي هتتقدم له.
+- **Custom Flower Bouquets:** Beautiful bouquets designed around the occasion, recipient, and preferred style.
+- **Personalized Gift Cards:** Written cards and gift notes decorated with simple handmade details to give every gift a more personal touch.
+- **Thoughtful Gifts:** Carefully selected gift ideas and boxes that can be prepared with different items based on the occasion and customer request.
+- **Made-to-Order Details:** Personalized touches and arrangements created to make each gift feel unique and meaningful.
 
-كل قطعة بنصنعها بحب، عشان يكون لكل عميلة تجربة خاصة ومختلفة وليها لمسة تخصها.
+Every piece is made with love, so each customer receives something special that feels truly her own.
 
 ---
 
-صُنع بإيد وحب 🤍
+Made with love and a personal touch 🤍
